@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: lightgrey;
+    height: 1000vh;
+    width: 100vw;
+}
+header {
+    
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}
+header > h1 {
+    border: 1px dotted black;
+}
+header > nav {
+    border: 1px dotted black;
+}
+header > nav > a {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-decoration: none;
+}
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+}
